@@ -5,7 +5,7 @@ class String
   def sentence?
     counter = self.length 
     bool = 2
-    self[counter] == "." ? bool = 1 : bool = 0
+    self[counter-1] == "." ? bool = 1 : bool = 0
     if bool == 1 
       return true 
     elsif bool == 0 
