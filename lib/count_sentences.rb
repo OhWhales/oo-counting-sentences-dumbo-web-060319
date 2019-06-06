@@ -16,7 +16,7 @@ class String
   def question?
     counter = self.length 
     bool = 2 
-    self[counter-1] == "?" ? return true : return false 
+    self[counter-1] == "?" ? true: false
     
   end
 
