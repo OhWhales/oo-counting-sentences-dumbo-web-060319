@@ -16,7 +16,8 @@ class String
   def question?
     counter = self.length 
     bool = 2 
-    self[counter-1] == "?" ? bool = 1 : bool = 0 
+    self[counter-1] == "?" ? return true : return false 
+    
   end
 
   def exclamation?
