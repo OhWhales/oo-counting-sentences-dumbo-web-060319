@@ -20,6 +20,7 @@ class String
   end
 
   def count_sentences
-  
+    myArr=[];
+    myArr = self.split("")
   end
 end
