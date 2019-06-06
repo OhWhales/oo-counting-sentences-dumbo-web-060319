@@ -6,11 +6,7 @@ class String
     counter = self.length 
     bool = 2
     self[counter-1] == "." ? true:false
-    if bool == 1 
-      return true 
-    elsif bool == 0 
-      return false 
-    end 
+
   end
 
   def question?
