@@ -21,7 +21,7 @@ class String
 
   def count_sentences
     myArr=[];
-    myArr = self.split(/[!.?]/)
+    myArr = self.split(/[!.?] /)
     puts myArr
   end
 end
