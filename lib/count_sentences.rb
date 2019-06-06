@@ -4,7 +4,8 @@ class String
 
   def sentence?
     counter = self.length 
-    self.length[counter] == "." ? return true: return false
+    bool = 2
+    self.length[counter] == "." ? bool = 1 ; bool = 2
   end
 
   def question?
